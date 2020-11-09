@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_items_notice_items",
+  "info": {
+    "name": "notice_items",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

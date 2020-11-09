@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "menu": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.job-description",
+      "required": true
+    }
+  }
+}

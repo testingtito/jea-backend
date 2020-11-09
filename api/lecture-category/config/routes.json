@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lecture-categories",
+      "handler": "lecture-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lecture-categories/count",
+      "handler": "lecture-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lecture-categories/:id",
+      "handler": "lecture-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lecture-categories",
+      "handler": "lecture-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lecture-categories/:id",
+      "handler": "lecture-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lecture-categories/:id",
+      "handler": "lecture-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

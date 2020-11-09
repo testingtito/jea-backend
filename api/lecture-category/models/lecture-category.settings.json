@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lecture_categories",
+  "info": {
+    "name": "lectureCategory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "users": {
+      "via": "lecture_categories",
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "projects": {
+      "via": "lecture_categories",
+      "collection": "project"
+    },
+    "blogs": {
+      "via": "lecture_categories",
+      "collection": "blog"
+    },
+    "lectures": {
+      "via": "lecture_categories",
+      "collection": "lecture"
+    }
+  }
+}

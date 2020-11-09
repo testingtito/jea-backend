@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_description_job_descriptions",
+  "info": {
+    "name": "job_description",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "eachItem": {
+      "type": "richtext"
+    },
+    "file_name": {
+      "type": "string"
+    }
+  }
+}
